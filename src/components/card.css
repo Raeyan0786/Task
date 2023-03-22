@@ -1,0 +1,20 @@
+.card{
+    margin: 1rem;
+}
+.size{
+    font-size: 1rem;
+    color: gainsboro;
+}
+
+@media only screen and (max-width:568px )
+{
+    .card{
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 968px) and (min-width: 569px)
+{
+    .card{
+        margin-left: 8%;
+    }
+}
